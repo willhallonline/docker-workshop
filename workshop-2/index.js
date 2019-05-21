@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
- res.send('I Love JS Containers! Especially with Drupal.');
+ res.send('I Love JS Containers!');
 });
 
 app.listen(3000, function () {
